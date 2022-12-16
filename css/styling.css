@@ -1,0 +1,30 @@
+* {font-size: 10px;  }
+.tabs {margin-bottom: 10vh;}
+body {background-color: #eeeeee;}
+.container {padding-left: 3vw; padding-bottom: 5vh; padding-top: 0;}
+#picture {max-width: 60vw;}
+section{display: flex; flex-direction: column; justify-content: center; scroll-snap-align: start;}
+#text {max-width: 900px; font-size: 18px;}
+.align {display: flex;justify-content: center;}
+h1{font-family: roc-grotesk, sans-serif; font-weight: 700; font-style: normal; color: black; font-size: 4rem; position: relative; line-height: 2em; margin-top: 80px;}
+h2{font-family: roc-grotesk, sans-serif; font-weight: 200; font-style: normal; color: black; font-size: 3rem; position: relative;}
+.imgposter { max-height: 50vh; position: relative; margin-top:20px; margin-bottom: 70px;}
+.menupic { width: 60px; margin-left: 0;}
+p {font-family: bilo, sans-serif; font-weight: 400; font-style: normal; font-size: 2rem; color: black; max-width: 500px; hyphens: auto; /}
+.italic{ font-style: italic; font-family: bilo, sans-serif; font-weight: 400; text-align: left; font-size: 2rem;}
+.italic:hover {color: #f5c62a;}
+.impressum {font-family: bilo, sans-serif; font-weight: 200; font-style: normal; font-size: 1.5rem; color: black; max-width: 400px; line-height: 0em;}
+summary:hover {cursor: pointer;}
+details {margin-bottom: 10px;}
+.navbar { background-color: rgb(194, 194, 194); font-family: bilo, sans-serif; position:fixed; z-index: 9; margin-top: 0;padding-top: 0;}
+.navbar a {float: left; font-size: 16px; color: black; text-align: center; padding: 14px 16px; text-decoration: none;}
+.dropdown {}
+.dropdown .dropbtn {font-size: 16px;border: none;outline: none;color: black;;background-color: inherit; font-family: inherit; margin: 0;width: 100%;}
+.navbar a:hover, .dropdown:hover .dropbtn { background-color: black;}
+.dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.dropdown-content a {float: none;color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+.lang {width: 80vw;}
+.kurz {width: 60vw;}
+footer{margin-top: 5vh;}
